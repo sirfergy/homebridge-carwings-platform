@@ -13,6 +13,7 @@ var CarwingsAccessory = /** @class */ (function () {
     CarwingsAccessory.prototype.initTimers = function () {
         // Delay first update so that login is completed;
         var self = this;
+        // TODO: Logging is not output at this stage
         self.log.debug('Init timers ' + this.name);
         setTimeout(self.requestUpdate.bind(self), 15000);
         if (this.config.updateInterval >= 10) {

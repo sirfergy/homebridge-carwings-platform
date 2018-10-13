@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 import * as carwings from 'carwings-typescript'
 import {ICarwingsSession, CarwingsAuthenticator} from 'carwings-typescript'

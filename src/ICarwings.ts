@@ -52,6 +52,7 @@ export abstract class CarwingsAccessory implements ICarwingsAccessory{
 
         // Delay first update so that login is completed;
         let self = this;
+        // TODO: Logging is not output at this stage
         self.log.debug('Init timers ' + this.name);
         setTimeout(self.requestUpdate.bind(self), 15000);
 
