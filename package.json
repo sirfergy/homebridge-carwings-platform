@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "carwings-typescript": "bhagyas/carwings-typescript",
+    "carwings-typescript": "sirfergy/carwings-typescript",
     "request": "^2.88.0"
   },
   "engines": {
